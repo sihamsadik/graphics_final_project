@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Advanced Virtual Art Gallery</title>
+  <style>
+    body { margin: 0; overflow: hidden; }
+
+    #infoPanel {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 280px;
+      padding: 15px 20px 15px 15px;
+      background: rgba(255, 255, 255, 0.95);
+      font-family: sans-serif;
+      display: none;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    #infoPanelClose {
+      position: absolute;
+      top: 5px;
+      right: 8px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div id="infoPanel">
+    <button id="infoPanelClose">×</button>
+    <div id="infoContent"></div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
