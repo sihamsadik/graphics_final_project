@@ -1,9 +1,9 @@
 // main.js
 import * as THREE from 'three';
 import { buildMaze } from './bodies.js';
-import { setupLights } from './systems/lights.js';
-import { setupControls } from './systems/controls.js';
-import { setupHoverPanel } from './systems/interaction.js';
+import { setupLights } from './lights.js';
+import { setupControls } from './controls.js';
+import { setupHoverPanel } from './interaction.js';
 import { startLoop } from './animation.js';
 
 const scene = new THREE.Scene();
